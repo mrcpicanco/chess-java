@@ -13,7 +13,7 @@ public class Piece {
 	}
 
 
-	public Board getBoard() {
+	protected Board getBoard() { //Somente classes do mesmo pacote e subclasses é que poderão acessar o tabuleiro de uma peça;
 		return board;
 	}
 
