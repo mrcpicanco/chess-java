@@ -57,9 +57,25 @@ public class Board {
 		}
 		pieces[position.getRow()][position.getColumn()] = piece;
 		piece.position = position; //a posição da peça está acessível porque está na classe Board(Protected)
-		
-		
+				
 	}
+	//Método para remover uma peça.
+	
+	public Piece removePiece(Position position) {
+		if(!positionExists(position)) {
+			throw new BoardException("A posição não está no tabuleiro");
+		}
+		if(piece(position) == null) {
+			return null;
+		}
+		Piece aux = piece(position);
+		aux.position = null;
+		pieces[position.getRow()][position.getColumn()] = null;
+		return aux;
+	}
+	
+	
+	
 	private boolean positionExists( int row, int column) {
 		return row >= 0 && row < rows && column >= 0 && column < columns;
 	}
