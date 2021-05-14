@@ -30,6 +30,15 @@ public class UI {
 	public static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
 	public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
 	
+	//Método para limpar tela
+	//Comando do stackoverflow
+	public static void clearScreen() {
+		System.out.print("\033[H\033[2J");
+		System.out.flush();
+	}
+	
+	
+	
 	//Método para ler a posição do usuário
 	public static ChessPosition readChessPosition(Scanner sc) {
 		try {
@@ -58,7 +67,7 @@ public class UI {
 			System.out.println();
 		}
 
-		System.out.print(" a b c d e f g h");
+		System.out.print("  a b c d e f g h ");
 
 	}
 
