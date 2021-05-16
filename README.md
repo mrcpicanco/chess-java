@@ -6,7 +6,7 @@
 </h1>
 <p align="center">Projeto da Faculdade - 🚀 Desenvolver um projeto em Java.</p>
 
-Tabela de conteúdos
+Informações sobre o projeto
 =================
 <!--ts-->
    * [Sobre](#Sobre)
