@@ -1,2 +1,3 @@
-# chess-java
-Projeto de jogo de xadrez em java.
+# Jogo de Xadrez em Java!
+
+Projeto da Faculdade FAMA.
