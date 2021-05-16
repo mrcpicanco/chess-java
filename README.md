@@ -34,7 +34,7 @@ Informações sobre o projeto
 - [x] Tratamento de Exceptions e programação defensiva;
 - [x] Melhoria na impressão do tabuleiro;
 - [x] Movimento das peças;
-- [x] Tratamento de exeção e limpenza de tela;
+- [x] Tratamento de exceção e limpeza de tela;
 - [x] Movimentos possíveis;
 
 
