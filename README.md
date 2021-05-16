@@ -28,14 +28,14 @@ Informações sobre o projeto
 
 ### Features
 
-- [x] Implementação do tabuleiro e das peças
-- [x] impressão do tabuleiro
-- [x] colocar peças no tabuleiro
-- [x] Tratamento de Exceptions e programação defensiva
-- [x] Melhoria na impressão do tabuleiro
-- [x] Movimento das peças
-- [x] Tratamento de exeção e limpenza de tela
-- [x] Movimentos possíveis
+- [x] Implementação do tabuleiro e das peças;
+- [x] impressão do tabuleiro;
+- [x] colocar peças no tabuleiro;
+- [x] Tratamento de Exceptions e programação defensiva;
+- [x] Melhoria na impressão do tabuleiro;
+- [x] Movimento das peças;
+- [x] Tratamento de exeção e limpenza de tela;
+- [x] Movimentos possíveis;
 
 
 
