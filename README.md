@@ -36,6 +36,7 @@ Informações sobre o projeto
 - [x] Movimento das peças;
 - [x] Tratamento de exceção e limpeza de tela;
 - [x] Movimentos possíveis;
+- [x] Lógica do cheque!
 
 
 
