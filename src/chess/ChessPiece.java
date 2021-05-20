@@ -17,6 +17,13 @@ public abstract class ChessPiece extends Piece {
 		return color;
 	}
 	
+	public ChessPosition getChessPosition() {
+		return ChessPosition.fromPosition(position);
+		
+	}
+	
+	//Método para retornar uma posição no formato do xadrez
+
 		
 	//O set será eliminado para que a cor da peça não seja modificada.
 	

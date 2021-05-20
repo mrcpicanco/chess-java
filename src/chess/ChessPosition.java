@@ -42,9 +42,10 @@ public class ChessPosition {
 	protected Position toPosition() {
 		return new Position (8 - row, column - 'a');
 	}
+	//Mudança de sinal de - pra + para evitar erro.
 	
 	protected static ChessPosition fromPosition(Position position) {
-		return new ChessPosition((char)('a' - position.getColumn()), 8 - position.getRow());
+		return new ChessPosition((char)('a' + position.getColumn()), 8 - position.getRow());
 	}
 	
 	@Override
