@@ -59,7 +59,7 @@ public class Queen extends ChessPiece {
 					
 				}
 				
-				//verificação baixo
+				//verificação abaixo
 				
 				p.setValues(position.getRow() + 1, position.getColumn());
 				while(getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)){
@@ -69,55 +69,57 @@ public class Queen extends ChessPiece {
 				if (getBoard().positionExists(p) && isTheOpponentPiece(p)) {
 					mat[p.getRow()][p.getColumn()] = true;
 					
-				}
+				}	
+				//Lógica das diagonais
 				
+				//verificação Noroeste - NW
 				
-				//verificação acima
-				
-				p.setValues(position.getRow() - 1, position.getColumn());
+				p.setValues(position.getRow() - 1, position.getColumn() -1);
 				while(getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)){
 					mat[p.getRow()][p.getColumn()] = true;
-					p.setRow(p.getRow() - 1);
+					p.setValues(p.getRow() -1, p.getColumn() -1);
 				}
 				if (getBoard().positionExists(p) && isTheOpponentPiece(p)) {
 					mat[p.getRow()][p.getColumn()] = true;
 					
 				}
 				
-				//verificação para a esquerda
+				//verificação Nordeste - NE
 				
-						p.setValues(position.getRow(), position.getColumn() - 1);
+						p.setValues(position.getRow() -1 , position.getColumn() + 1);
 						while(getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)){
 							mat[p.getRow()][p.getColumn()] = true;
-							p.setColumn(p.getColumn() - 1);
+							p.setValues(p.getRow() -1, p.getColumn() +1);
 						}
 						if (getBoard().positionExists(p) && isTheOpponentPiece(p)) {
 							mat[p.getRow()][p.getColumn()] = true;
 							
 						}
-						//verificação para a direita
+						//verificação Sudeste - SE
 						
-						p.setValues(position.getRow(), position.getColumn() + 1);
+						p.setValues(position.getRow() +1, position.getColumn() + 1);
 						while(getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)){
 							mat[p.getRow()][p.getColumn()] = true;
-							p.setColumn(p.getColumn() + 1);
+							p.setValues(p.getRow() +1, p.getColumn() + 1);
 						}
 						if (getBoard().positionExists(p) && isTheOpponentPiece(p)) {
 							mat[p.getRow()][p.getColumn()] = true;
 							
 						}
 						
-						//verificação baixo
+						//verificação Sudoeste - SW
 						
-						p.setValues(position.getRow() + 1, position.getColumn());
+						p.setValues(position.getRow() + 1, position.getColumn() -1);
 						while(getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)){
 							mat[p.getRow()][p.getColumn()] = true;
-							p.setRow(p.getRow() + 1);
+							p.setValues(p.getRow() + 1, p.getColumn() -1);
 						}
 						if (getBoard().positionExists(p) && isTheOpponentPiece(p)) {
 							mat[p.getRow()][p.getColumn()] = true;
 							
-						}
+						}	
+				
+				
 		
 		return mat;
 
