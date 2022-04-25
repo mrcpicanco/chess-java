@@ -5,7 +5,23 @@
 
 - 📝 IDE utilizada: Eclipse
 
-- 📄 Pontos importantes: Implementação do tabuleiro e das peças; impressão do tabuleiro; colocar peças no tabuleiro; Tratamento de Exceptions e programação defensiva; Melhoria na impressão do tabuleiro; Movimento das peças; Tratamento de exceção e limpeza de tela; Movimentos possíveis; Lógica do cheque!Implementação do tabuleiro e das peças; impressão do tabuleiro; colocar peças no tabuleiro; Tratamento de Exceptions e programação defensiva; Melhoria na impressão do tabuleiro; Movimento das peças; Tratamento de exceção e limpeza de tela; Movimentos possíveis; Lógica do cheque!
+- 📄 Pontos importantes: Implementação do tabuleiro e das peças; 
+- impressão do tabuleiro; 
+- colocar peças no tabuleiro; 
+- Tratamento de Exceptions e programação defensiva; 
+- Melhoria na impressão do tabuleiro; 
+- Movimento das peças; 
+- Tratamento de exceção e limpeza de tela; 
+- Movimentos possíveis; 
+- Lógica do cheque!
+- Implementação do tabuleiro e das peças; 
+- impressão do tabuleiro; colocar peças no tabuleiro; 
+- Tratamento de Exceptions e programação defensiva; 
+- Melhoria na impressão do tabuleiro; 
+- Movimento das peças; 
+- Tratamento de exceção e limpeza de tela; 
+- Movimentos possíveis; 
+- Lógica do cheque!
 
 
 <p align="left">
