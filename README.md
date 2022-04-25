@@ -1,7 +1,7 @@
 <h1 align="center">Projeto: Jogo de Xadrez usando Java.</h1>
 <h3 align="center">Projeto para a faculdade da matéria de Programação Orientada a Objetos.</h3>
 
-- 👨‍💻 Sobre o projeto: É um projeto relativamente simples, mas focado no back-end, tanto que o jogo é jogado no terminal. Interface em fase de desenvolvimento.É um projeto relativamente simples, mas focado no back-end, tanto que o jogo é jogado no terminal. Interface em fase de desenvolvimento.
+- 👨‍💻 Sobre o projeto: É um projeto relativamente simples, mas focado no back-end, tanto que o jogo é jogado no terminal. Interface em fase de desenvolvimento.
 
 - 📝 IDE utilizada: Eclipse
 
